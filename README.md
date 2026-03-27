@@ -150,11 +150,6 @@ This repository does **not** include:
 - generated attack outputs
 - demo or presentation materials
 
-## Citation
-
-This codebase is associated with work submitted to **EUSIPCO**.  
-If you use this repository in academic work, please cite the corresponding paper once the bibliographic details are available.
-
 ## Contact
 
 For questions related to the experimental code release, please contact:
