@@ -70,10 +70,10 @@ pip install -r requirements.txt
 ## Requirements and notes
 
 - Python 3.10 is recommended.
-- YOLO detector weights are **not included** in this repository.
+- YOLO detector weights are **included** in this repository.
 - For scripts using the print-scan simulator, the corresponding CycleGAN generator checkpoint must be provided separately.
 - `networks.py` must be present for print-scan-enabled scripts.
-- Some scripts assume a specific Ultralytics raw-output structure, in particular the availability of `raw[1]["scores"]`. For reproducibility, pin the Ultralytics version used in `requirements.txt` or `environment.yml`.
+- Some scripts assume a specific Ultralytics raw-output structure (YOLOv8), in particular the availability of `raw[1]["scores"]`. For reproducibility, pin the Ultralytics version used in `requirements.txt` or `environment.yml`.
 
 ## Expected annotation format
 
@@ -145,7 +145,6 @@ The scripts may generate, depending on the selected configuration:
 This repository does **not** include:
 
 - training or test datasets
-- YOLO detector weights
 - print-scan generator checkpoints
 - generated attack outputs
 - demo or presentation materials
